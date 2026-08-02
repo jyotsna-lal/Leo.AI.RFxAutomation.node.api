@@ -1,0 +1,23 @@
+{
+  "name": "agentic-procurement-automation",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Playwright and Cucumber automation framework for multi-turn AI procurement workflows.",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:api": "cucumber-js tests/Automation_Sourcing_Run1/Quick_Quote_Agent_Run1.feature",
+    "typecheck": "tsc --noEmit",
+    "mock:run": "tsx scripts/run-mock-journey.ts"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.52.0",
+    "dotenv": "^16.5.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

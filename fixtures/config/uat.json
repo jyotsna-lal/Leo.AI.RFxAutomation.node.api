@@ -1,0 +1,7 @@
+{
+  "BASE_URL": "https://example.invalid",
+  "RUNTIME_API_URL": "https://example.invalid/api/runtime",
+  "LLM_PROVIDER": "mock",
+  "LLM_MODEL": "mock-judge-v1",
+  "JUDGE_PASS_THRESHOLD": 0.75
+}
